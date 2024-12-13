@@ -1,0 +1,122 @@
+.book-management-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.book-form-container {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.book-form .form-group {
+  margin-bottom: 15px;
+}
+
+.book-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.book-form input,
+.book-form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-form textarea {
+  resize: vertical;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.book-list-container {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.book-list {
+  list-style: none;
+  padding: 0;
+}
+
+.book-item {
+  width: 450px;
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.book-details {
+  flex-grow: 1;
+}
+
+.book-details h3 {
+  margin-top: 0;
+}
+
+.buy-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.buy-link:hover {
+  background-color: #0056b3;
+}
+
+.remove-button {
+  background-color: #f44336;
+  /* display: inline-block; */
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 1px;
+  text-decoration: none;
+}
+
+.remove-button:hover {
+  background-color: #e53935;
+}
